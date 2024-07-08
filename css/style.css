@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Inter", sans-serif; */
+}
+
+/* shared style */
+.text-align-center {
+  text-align: center;
+}
+
+/* banner style */
+.banner {
+  background-image: url(../images/Banner\ Image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  width: 1320px;
+  height: 600px;
+}
+.banner_content {
+  width: 632px;
+  height: 290px;
+  margin: auto;
+}
+.banner_title {
+  color: white;
+  padding: 200px 0 0 0;
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner_sub_title {
+  color: white;
+  font-size: 72px;
+  font-weight: 900;
+}
+/* banner style */
+
+/* offer style */
+.offer {
+  width: 802px;
+  height: 806px;
+  margin: 100px auto;
+  font-family: "Inter";
+}
+.offer_title {
+  font-size: 88px;
+
+  font-weight: 700;
+
+  color: red;
+
+  margin-bottom: 48px;
+}
+.offer_sub_title {
+  font-size: 22px;
+
+  font-weight: 500;
+
+  color: red;
+}
+.offer_description {
+  font-size: 48px;
+
+  font-weight: 700;
+
+  margin-top: 20px;
+}
+.offer_img {
+}
+
+.offer_img img {
+  width: 800px;
+
+  height: 500px;
+
+  margin-top: 60px;
+}
+/* offer style */
