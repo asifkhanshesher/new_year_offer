@@ -107,16 +107,54 @@
   font-weight: 200;
   line-height: 30px;
 }
-.welcome_party_btn{
+.welcome_party_btn {
   padding: 7px 12px;
   margin-top: 25px;
   font-weight: 400;
 }
 
-.welcome_img_2024 {
-}
-
-.welcome_img_2024 img {
-}
-
 /* welcome party style */
+
+/* party_event style */
+
+.party_event {
+  background-color: antiquewhite;
+  background-image: linear-gradient(antiquewhite, white);
+  width: 1320px;
+  height: 480px;
+  margin: 80px auto;
+  border-radius: 10px;
+}
+.party_event_content {
+  text-align: center;
+  padding: 120px 0px;
+}
+.party_event_content span{
+  color: red;
+}
+.party_hotel {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.party_date {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.party_time {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.party_event_btn {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 18px 35px;
+  outline: none;
+  border: transparent;
+  border-radius: 5px;
+}
+/* party_event style */
