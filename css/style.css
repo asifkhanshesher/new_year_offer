@@ -13,7 +13,8 @@
 
 /* banner style */
 .banner {
-  background-image: url(../images/Banner\ Image.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01)),
+    url(../images/Banner\ Image.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 50px auto;
@@ -70,3 +71,52 @@
   margin-top: 60px;
 }
 /* offer style */
+
+/* welcome party style */
+.welcome_party {
+  width: 1320px;
+  height: 600px;
+  margin: 160px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01)),
+    url(../images/Vectorrr.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+}
+
+.welcome_party_text {
+  color: white;
+  width: 642px;
+}
+.welcome_title {
+  font-size: 54px;
+  font-weight: bolder;
+  width: 600px;
+  line-height: 80px;
+  letter-spacing: 8px;
+}
+
+.welcome_description {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+}
+.welcome_party_btn{
+  padding: 7px 12px;
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.welcome_img_2024 {
+}
+
+.welcome_img_2024 img {
+}
+
+/* welcome party style */
